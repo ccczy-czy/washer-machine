@@ -1,0 +1,42 @@
+/*
+  Theme and global variables
+*/
+html {
+  overflow-y: scroll;
+}
+
+/*
+  Custom styles
+*/
+body {
+  font-family: sans-serif;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  color: inherit;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  flex: 1;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 25rem) {
+  h1 {
+    font-size: 1.25rem;
+  }
+}
